@@ -1,7 +1,3 @@
 class UserAuth():
-    EMAIL = 'atakolday@gmail.com'
-    PASS = 'jjoeijyqkiiitogc'
-
-class SSNLAuth():
-    EMAIL = 'conversationstudyssnl@gmail.com'
-    PASS = 'goanezimphtdokhs'
+    EMAIL = '{YOUR_EMAIL@gmail.com}'
+    PASS = '{YOUR_PASSKEY}'
