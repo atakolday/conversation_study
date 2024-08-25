@@ -1,5 +1,5 @@
 
-# Project Title
+# Stanford University Conversation Study
 
 This project is designed to [briefly describe the purpose of the project]. It includes scripts for managing authentication, sending emails, handling participant data, and running the main application logic.
 
