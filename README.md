@@ -40,7 +40,28 @@ This project is designed to [briefly describe the purpose of the project]. It in
    ```bash
    python main.py
    ```
+3. **Specify use case from available commands:**
+   After running the main script, you can choose from the following commands:
 
+   - **Invite:**
+      - `rID_invite` : Send invitation email by RESPONDENT_ID.
+      - `mass_invite` : Send invitation emails to each participant for a given day (e.g., Monday, Tuesday).
+      - `send_zoom` : Send Zoom link, participant_id, and calendar event after confirmation.
+      - `confirmation` : Send confirmation email after participants confirm their conversation time.
+
+   - **Reminder:**
+      - `rID_reminder` : Send reminder email by RESPONDENT_ID.
+      - `reminder_1hr` : Send the 1-hour reminder email by RESPONDENT_ID.
+      - `reminder_24hr` : Send the 24-hour reminder for confirmed participants by day of the week (e.g., Monday).
+      - `noreply` : Re-send invitation as a reminder for non-confirmed participants.
+
+   - **Other:**
+      - `reschedule` : Send the reschedule email template by RESPONDENT_ID.
+      - `reschedule_day` : Send the reschedule emails by RESPONDENT_ID for a specific day (e.g., Monday).
+      - `reschedule_nw` : Send the rescheduling email for next week.
+      - `conversation` : Generate pre-conversation information by slot (e.g., Monday-8:00 AM).
+      - `payment` : Send payment email to Rick with day of the week as user input.
+        
 ## Files
 
 - `Auth.py`: Contains the logic for user authentication, including login and token management.
